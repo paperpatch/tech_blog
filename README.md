@@ -32,6 +32,8 @@ Uses MySQL and MySQL2 tools for this application:
   - An npm package for Node.js with a focus on performance. Connects Node.js applications to the MySQL database.
 - [Sequelize](https://sequelize.org/)
   - Promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. Features solid transaction support, relations, eager and lazy loading, read replication and more.
+- [Express](https://www.npmjs.com/package/express)
+  - A minimal and flexible Node.js web application framework that provides a robust set of features to develop web and mobile applications. Facilitates the rapid development of Node based Web applications.
 - [Express Handlebars](https://www.npmjs.com/package/express-handlebars)
   - Logicless templating language that keeps the View and the code separate and compiles templates into JavaScript functions. An extension to the Mustache templating language.
 - [Express-Session](https://www.npmjs.com/package/express-session)
@@ -53,6 +55,8 @@ This repository uses the following server:
 `npm i bcrypt`
 
 `npm i mysql2`
+
+`npm i express`
 
 `npm i express-handlebars`
 
