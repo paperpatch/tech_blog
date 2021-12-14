@@ -15,14 +15,12 @@
         <a href="/">Tech Blog</a>
       </h1>
       <nav>
-        <ul>
-          {{#if loggedIn}}
-          <li><a href="/dashboard">dashboard</a></li>
-          <li><button id="logout" class="btn-no-style">logout</button></li>
-          {{else}}
-          <li><a href="/login">login</a></li>
-          {{/if}}
-        </ul>
+        {{#if loggedIn}}
+        <a href="/dashboard">dashboard</a>
+        <button id="logout" class="btn-no-style">logout</button>
+        {{else}}
+        <a href="/login">login</a>
+        {{/if}}
       </nav>
     </header>
     <main>
@@ -34,8 +32,6 @@
   </div>
   
   {{#if loggedIn}}
-  <script src="/javascript/delete-post"></script>
-  <script src="/javascript/edit-post"></script>
   <script src="/javascript/logout.js"></script>
   {{/if}}
 </body>
