@@ -9,9 +9,10 @@
   <div>
     <button type="submit">Add Comment</button>
   </div>
-</form>
+
 {{else}}
-<div>Want to comment? <a href="/login">Login</a></div>
+  <div class="want">Want to comment? <a href="/login">Login</a></div>
+</form>
 {{/if}}
 
 {{> comments post.comments}}

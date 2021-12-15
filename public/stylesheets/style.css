@@ -7,7 +7,7 @@ body, html {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  color: #333;
+  background-color: #f7f7f7;
 }
 
 a {
@@ -36,9 +36,23 @@ button:hover {
   background-color: #3486eb;
 }
 
-.post-list {
+.post-list, .dashboard ol {
   margin: 0;
   padding: 0;
+  list-style: none;
+}
+
+.post-list li, .dashboard li {
+/*   margin: 1%;
+  padding: 1%;
+  background-color: white;
+  box-shadow: 3px 4px 15px -2px rgb(219, 219, 219);
+  border-radius: 5px; */
+}
+
+.dashboard, .dashboard-create, .dashboard h2 {
+  margin: 1%;
+  padding: 1%;
 }
 
 textarea, input {
@@ -53,7 +67,7 @@ textarea:focus, input:focus {
 }
 
 textarea {
-  min-width: 40%;
+  min-width: 60%;
   min-height: 100px;
 }
 
@@ -72,6 +86,7 @@ form label {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  
 }
 
 header {
@@ -80,15 +95,19 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  background-color: white;
+  box-shadow: 0px 4px 2px -2px rgb(219, 219, 219);
+  border-radius: 3px;
+  margin-bottom: 20px;
 }
 
 header h1 {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 main {
   flex: 1;
-  padding: 2% 4%;
+  /* padding: 2% 4%; */
 }
 
 .btn-no-style {
@@ -118,22 +137,39 @@ main {
 }
 
 .post {
-  margin-bottom: 2%;
   line-height: 150%;
 }
 
 .post .title span {
   font-style: italic;
   font-size: 90%;
-  color: #7d7d7d;
 }
 
 .edit-link {
   display: block;
-  margin: -1.5% 0 2% 0;
+  margin: 0 0 3% 1%;
+  padding-left: 1%;
+}
+
+.article, .comment {
+  background-color: white;
+  box-shadow: 3px 4px 15px -2px rgb(219, 219, 219);
+  border-radius: 5px;
+}
+
+.article, .comments {
+  margin: 1%;
+  padding: 1%;
+}
+
+.want {
+  margin: 1%;
+  padding: 1%;
 }
 
 .comment-form {
+  margin: 1%;
+  padding: 1%;
   margin-bottom: 5%;
 }
 
@@ -142,9 +178,9 @@ main {
   margin-bottom: 1%;
 }
 
-.comment:nth-child(odd) {
+/* .comment:nth-child(odd) {
   background-color: #fff5eb;
-}
+} */
 
 .comment .meta {
   font-size: 90%;
@@ -166,4 +202,7 @@ footer {
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  background-color: white;
+  box-shadow: 0px 4px 2px -2px rgb(219, 219, 219);
+  border-radius: 3px;
 }
