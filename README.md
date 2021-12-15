@@ -64,6 +64,21 @@ This repository uses the following server:
 
 `npm i connect-session-sequelize`
 
+`heroku create`
+
+`heroku run node seeds/index.js`
+
+`git push heroku main`
+
+If you cloned or copied the repository, ensure that you create an .env file in your local repository with similar text below:
+```js
+DB_NAME='ecommerce_db'
+DB_USER='your-username' // typically root
+DB_PW='your-password'
+```
+
+Seed your database by typing `node seeds/index.js` in the command line. Feel free to change the seeds data as desired.
+
 ## Usage
 
 :computer:
