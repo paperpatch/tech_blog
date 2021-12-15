@@ -1,7 +1,9 @@
 # Tech Blog
 ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
-Built a CMS (Content Management System) style [blog site](#) where developers can publish their blog posts and comment on other developers' posts as well. Uses MVC (Model-View-Controller) paradigm, using `Handlebars.js` as template, `Sequelize` as ORM, and `Express-Session` npm (node package manager) for authentication.
+Built a CMS (Content Management System) style [blog site](https://salty-eyrie-03206.herokuapp.com/) where developers can publish their blog posts and comment on other developers' posts as well. Uses MVC (Model-View-Controller) paradigm, using `Handlebars.js` as template, `Sequelize` as ORM, and `Express-Session` npm (node package manager) for authentication.
+
+![Screenshot](./assets/images/techblog_screenshot.png)
 
 ## Table of Contents
 
@@ -66,13 +68,13 @@ This repository uses the following server:
 
 `heroku create`
 
-`heroku run node seeds/index.js`
-
 `git push heroku main`
+
+`heroku run node seeds/index.js`
 
 If you cloned or copied the repository, ensure that you create an .env file in your local repository with similar text below:
 ```js
-DB_NAME='ecommerce_db'
+DB_NAME='techblog_db'
 DB_USER='your-username' // typically root
 DB_PW='your-password'
 ```
@@ -83,11 +85,12 @@ Seed your database by typing `node seeds/index.js` in the command line. Feel fre
 
 :computer:
 
-Go to [Tech Blog](#) and navigate through seeded articles and links. Log in to be able to post and comment on the blog.
+Go to [Tech Blog](https://salty-eyrie-03206.herokuapp.com/) and navigate through seeded articles and links. Log in to be able to post and comment on the blog.
 
 User is able to:
 - Create a new account to post their own blog and comment.
 - Edit, comment and delete their own posts.
+- View and comment on other submitted posts.
 
 ## Contributing
 
