@@ -47,8 +47,8 @@ router.get('/:id', (req, res) => {
     });
 });
 
+// Add new User
 router.post('/', (req, res) => {
-  // expects {username: 'Lernantino', password: 'password1234'}
   User.create({
     username: req.body.username,
     password: req.body.password
@@ -108,9 +108,9 @@ router.post('/logout', (req, res) => {
   }
 });
 
+// Update existing User
 router.put('/:id', (req, res) => {
   // expects {username: 'Lernantino', password: 'password1234'}
-
   // pass in req.body instead to only update what's passed through
   User.update(req.body, {
     individualHooks: true,
@@ -131,6 +131,7 @@ router.put('/:id', (req, res) => {
     });
 });
 
+// Delete existing user
 router.delete('/:id', (req, res) => {
   User.destroy({
     where: {
