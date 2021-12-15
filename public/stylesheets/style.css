@@ -59,6 +59,7 @@ textarea, input {
   padding: .5%;
   border-radius: 5px;
   border: 1px solid #ccc;
+  font-family: sans-serif;
 }
 
 textarea:focus, input:focus {
