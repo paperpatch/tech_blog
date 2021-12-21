@@ -9,6 +9,7 @@ Built a CMS (Content Management System) style [blog site](https://salty-eyrie-03
 
 * [Setup](#setup)
 * [Usage](#usage)
+* [Deployment](#deployment)
 * [Contributing](#contributing)
 * [License](#license)
 
@@ -95,6 +96,10 @@ User is able to:
 - Create a new account to post their own blog and comment.
 - Edit, comment and delete their own posts.
 - View and comment on other submitted posts.
+
+## Deployment
+
+[Deployed link to Tech Blog](https://salty-eyrie-03206.herokuapp.com/)
 
 ## Contributing
 
