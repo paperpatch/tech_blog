@@ -90,7 +90,7 @@ Seed your database by typing `node seeds/index.js` in the command line. Feel fre
 
 :computer:
 
-Go to [Tech Blog](https://salty-eyrie-03206.herokuapp.com/) and navigate through seeded articles and links. Log in to be able to post and comment on the blog.
+Go to [Tech Blog](https://tech-blog-proj.herokuapp.com/) and navigate through seeded articles and links. Log in to be able to post and comment on the blog.
 
 User is able to:
 - Create a new account to post their own blog and comment.
@@ -99,7 +99,7 @@ User is able to:
 
 ## Deployment
 
-[Deployed link to Tech Blog](https://salty-eyrie-03206.herokuapp.com/)
+[Deployed link to Tech Blog](https://tech-blog-proj.herokuapp.com/)
 
 ## Contributing
 
